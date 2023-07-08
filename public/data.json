@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "image": "https://i.ibb.co/9ZXHCy2/logo3.png",
+        "title": "UI/UX Design",
+        "details": "I can develop web font end from ux desgin.React web application taht i create that is user friendly."
+    },
+    {
+        "id": 2,
+        "image": "https://i.ibb.co/8x1G6cj/logo4.png",
+        "title": "Mobile Responsive",
+        "details": "I can develop that web application.That application is mobile responsive."
+    },
+    {
+        "id": 3,
+        "image": "https://i.ibb.co/MS1T6dj/logo5.png",
+        "title": "Web Developer",
+        "details": "I am react developer.I have enough knowladge of javascript,es6 and html,css"
+    },
+    {
+        "id": 4,
+        "image": "https://i.ibb.co/MnzjdJ3/logo6.png",
+        "title": "SEO Optimisation",
+        "details": "React application is very seo friendly.SEO expert can opptimize react application very fast."
+    }
+]
