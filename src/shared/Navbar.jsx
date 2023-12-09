@@ -7,7 +7,7 @@ const Navbar = () => {
             <h1 className='font-hammersmith'>Rakib's Web</h1>
             <ul className='flex gap-5 font-signika focus:border-2 border-green-500'>
                 <li>Home</li>
-                <li>About</li>
+                <Link to='/about'>About</Link>
                 <li>Services</li>
                 <li>Resume</li>
                 <li>Protfolio</li>
