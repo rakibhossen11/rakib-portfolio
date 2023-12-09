@@ -1,4 +1,5 @@
 import React from 'react';
+import Testimonial from './Testimonial';
 
 const About = () => {
     return (
@@ -26,6 +27,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <Testimonial />
         </div>
     );
 };
