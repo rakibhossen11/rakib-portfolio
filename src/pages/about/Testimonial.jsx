@@ -26,9 +26,9 @@ const Testimonial = () => {
         </div>
       </section>
       {/* our team section */}
-      <section className="px-[150px] py-[100px]">
+      <section className="py-[100px]">
         <p className="text-blue-500">TEAM</p>
-        <h2 className="font-hammersmith text-[28px]">Our Team</h2>
+        <h2 className="font-hammersmith text-[44px] mt-[20px] mb-[40px]">Our Team</h2>
         <hr className="h-px border-2 bg-black mb-10" />
         <div>
             <div>
@@ -39,7 +39,7 @@ const Testimonial = () => {
         </div>
       </section>
       {/* discount */}
-      <section className="grid grid-cols-2 mx-[150px] px-[30px] py-[100px] bg-slate-200 rounded-lg">
+      <section className="grid grid-cols-2 px-[30px] py-[100px] bg-slate-200 rounded-lg">
         <div>
         <button className="bg-purple-400 font-signika text-white px-4 py-2 rounded-[4px] text-[24px] mb-[20px]">02</button>
         <h2 className="font-hammersmith text-[44px] mb-[20px]">30% Discount</h2>
