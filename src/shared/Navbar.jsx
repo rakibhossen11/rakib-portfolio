@@ -6,15 +6,16 @@ const Navbar = () => {
         <div className='flex justify-between p-4'>
             <h1 className='font-hammersmith'>Rakib's Web</h1>
             <ul className='flex gap-5 font-signika focus:border-2 border-green-500'>
-                <li>Home</li>
+                <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>
-                <li>Services</li>
+                <Link to='/service'>Services</Link>
                 <li>Resume</li>
                 <li>Protfolio</li>
-                <li>Testimonial</li>
+                {/* <li>Testimonial</li> */}
                 <li>Blog</li>
+                <Link to='/contact'>Contact Us</Link>
             </ul>
-            <Link to='/contact' className='font-hammersmith'>Contact Us</Link>
+            
         </div>
     );
 };
