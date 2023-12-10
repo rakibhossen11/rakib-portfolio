@@ -12,9 +12,9 @@ const Service = () => {
         <h2 className="font-hammersmith text-[64px] text-center pt-10">
           Services
         </h2>
-        <p className="font-signika text-[24px] px-24 text-center mt-1 text-gray-400">
+        <p className="font-signika text-[24px] px-24 text-center mt-[30px] mb-[70px] text-[#979A9A]">
           Do you have a great idea but can’t turn it into a reality? <br />
-          don’t worry! Rakib's team is here to help you with your project.{" "}
+          don’t worry! Rakib's team is here to help you with your project.
           <br />
           We do our best to provide high-quality services for your digital
           <br /> project.
@@ -25,7 +25,7 @@ const Service = () => {
         <div className="flex flex-col justify-center items-center bg-zinc-200 h-[320px] hover:bg-blue-500 hover:text-white rounded-xl px-[60px]">
           <RiApps2Line className="h-12 w-12" />
           <h1 className="py-6 font-hammersmith text-2xl">UI-X Design</h1>
-          <p className="font-signika text-[16px] text-slate-400">
+          <p className="font-signika text-[16px]">
             we can design whatever you are thinking about. including Minimal,
             Modern and Creative designs.
           </p>
@@ -33,7 +33,7 @@ const Service = () => {
         <div className="flex flex-col justify-center items-center bg-zinc-200 h-[320px] hover:bg-blue-500 hover:text-white rounded-xl px-[60px]">
           <IoExtensionPuzzleOutline className="h-12 w-12" />
           <h1 className="py-6 font-hammersmith text-2xl">App Development</h1>
-          <p className="font-signika text-slate-400">
+          <p className="font-signika">
             Provide a greate experience for your mobile users by creating native
             apps. we can develop your app in no time!
           </p>
@@ -41,7 +41,7 @@ const Service = () => {
         <div className="flex flex-col justify-center items-center bg-zinc-200 h-[320px] hover:bg-blue-500 hover:text-white rounded-xl px-[60px]">
           <TbWorld className="h-12 w-12" />
           <h1 className="py-6 font-hammersmith text-2xl">Web Development</h1>
-          <p className="font-signika text-slate-400">
+          <p className="font-signika">
             do you want a unique website with a greate user experience? just
             trust us and see the incredible result.
           </p>
@@ -49,7 +49,7 @@ const Service = () => {
         <div className="flex flex-col justify-center items-center bg-zinc-200 h-[320px] hover:bg-blue-500 hover:text-white rounded-xl px-[60px]">
           <SlSpeedometer className="h-12 w-12" />
           <h1 className="py-6 font-hammersmith text-2xl">Deployment</h1>
-          <p className="font-signika text-slate-400">
+          <p className="font-signika">
             if you're looking for someone to deploy and maintain your project,
             then you're in a right place! you can leave it for us and get rid of
             extra work.
@@ -99,7 +99,7 @@ const Service = () => {
           {/* corporate web price */}
           <div className="bg-[#F4F6F6] rounded-lg px-[24px] py-[80px] border-[2px] border-[#1E88E5] text-center">
             <p className="font-signika text-[18px]">Corporate website</p>
-            <h2 className="font-hammersmith text-[72px] text-[#263238 ]">
+            <h2 className="font-hammersmith text-[72px] text-[#263238]">
               $500
             </h2>
             <div className="flex flex-col gap-y-[10px]">
