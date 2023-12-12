@@ -13,7 +13,7 @@ const Services = () => {
   //     .then(date => setServices(date))
   // },[])
   return (
-    <div className="px-[100px] mt-[100px] mb-[120px]">
+    <div className="px-[20px] md:px-[100px] mt-[100px] mb-[120px]">
       {/* <p className='font-signika text-center mt-10'>My Service</p>
             <h1 className='font-signika text-3xl text-center'>SERVICES I OFFER</h1>
             <div className='grid grid-cols-4 gap-3 mt-8'>
@@ -26,7 +26,7 @@ const Services = () => {
                     </div> )
                 }
             </div> */}
-      <section className="grid grid-cols-3 gap-[30px] mt-[30px] mb-[100px]">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-[10px] md:gap-[30px] mt-[30px] mb-[100px]">
         <div className="flex flex-col justify-center items-center bg-zinc-200 h-[320px] hover:bg-blue-500 hover:text-white rounded-xl px-[60px]">
           <RiApps2Line className="h-12 w-12" />
           <h1 className="py-6 font-hammersmith text-2xl">UI-X Design</h1>

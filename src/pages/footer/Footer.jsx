@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="px-[100px]">
-      <footer className="flex gap-[60px] mt-[100px] bg-[#FFFFFF]">
+    <div className="px-[10px] md:px-[100px]">
+      <footer className="flex flex-col items-center md:flex md:flex-row gap-[60px] mt-[100px] bg-[#FFFFFF]">
         <section>
           <h1 className="font-hammersmith text-3xl">Rakib's web</h1>
           <p className="font-signika text-[16px] mt-[30px]">
@@ -13,7 +13,7 @@ const Footer = () => {
           <h3 className="mt-[30px] font-signika text-[18px] ">
             Join our news letter
           </h3>
-          <div className="flex mt-[16px] h-[80px]">
+          <div className="md:flex mt-[16px] h-[80px]">
             <input
               type="Email"
               placeholder="Email address"

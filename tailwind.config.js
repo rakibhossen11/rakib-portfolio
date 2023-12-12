@@ -10,9 +10,6 @@ export default {
         hammersmith: ['Hammersmith One', "sans-serif"],
         signika: ['Signika', 'sans-serif']
       },
-      backgroundImage: {
-        'testimonial': "url('./src/assets/programing.jpg')",
-      },
     },
   },
   plugins: [],
