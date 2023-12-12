@@ -1,6 +1,7 @@
 import React from "react";
 import { FaTelegram, FaPhoneAlt } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
+import rakib from '../../assets/rakib.jpg';
 
 const Contact = () => {
   return (
@@ -35,7 +36,7 @@ const Contact = () => {
           <div>
             <img
               className="rounded-[6px] border-[2px] border-[#3498DB]"
-              src="https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/361645941_1666710017429960_8233889087616637270_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=-2fMe2pEcdYAX9Wc_zj&_nc_oc=AQkD0KtNQ7Li2PTnwIxiHnsj34fIqOCjfu0Z0IGOohQ0JLVGHs_QJKAaNOFsvd9nstk&_nc_ht=scontent.fdac138-1.fna&oh=00_AfCAPBTv-9QDS2BHGmdxgrSRHkV1Hk-4cSr2FlCVor9UzA&oe=657702AE"
+              src={rakib}
               alt=""
             />
           </div>

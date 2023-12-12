@@ -1,4 +1,5 @@
 import React from "react";
+import rakib from '../../assets/rakib.jpg';
 
 const Testimonial = () => {
   return (
@@ -32,7 +33,7 @@ const Testimonial = () => {
         <hr className="h-px border-2 bg-black mb-10" />
         <div>
             <div>
-                <img className="rounded-xl h-[420px]" src="https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/361645941_1666710017429960_8233889087616637270_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=-2fMe2pEcdYAX9Wc_zj&_nc_oc=AQkD0KtNQ7Li2PTnwIxiHnsj34fIqOCjfu0Z0IGOohQ0JLVGHs_QJKAaNOFsvd9nstk&_nc_ht=scontent.fdac138-1.fna&oh=00_AfCAPBTv-9QDS2BHGmdxgrSRHkV1Hk-4cSr2FlCVor9UzA&oe=657702AE" alt="" />
+                <img className="rounded-xl h-[420px]" src={rakib} alt="" />
                 <h1 className="font-hammersmith text-[24px] mt-2">Rakib Hossen</h1>
                 <p className="text-blue-500 font-signika">Full Stack Web Developer</p>
             </div>

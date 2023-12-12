@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillSafetyCertificate } from "react-icons/ai";
 import { RiTimerFlashFill } from "react-icons/ri";
 import about from "../../../assets/about.webp";
-import logo1 from "../../../assets/logo1.png";
+import rakib from "../../../assets/rakib.jpg";
 import logo2 from "../../../assets/logo2.png";
 
 const Aboutme = () => {

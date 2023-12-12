@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from "../../../assets/banner1.png";
+import img1 from "../../../assets/rakib.jpg";
 
 const Banner = () => {
   return (
-    <section className="px-[10px] md:px-[100px] py-[100px] bg-cover bg-no-repeat bg-[url('https://scontent.fdac138-1.fna.fbcdn.net/v/t39.30808-6/361645941_1666710017429960_8233889087616637270_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=-2fMe2pEcdYAX9Wc_zj&_nc_oc=AQkD0KtNQ7Li2PTnwIxiHnsj34fIqOCjfu0Z0IGOohQ0JLVGHs_QJKAaNOFsvd9nstk&_nc_ht=scontent.fdac138-1.fna&oh=00_AfCAPBTv-9QDS2BHGmdxgrSRHkV1Hk-4cSr2FlCVor9UzA&oe=657702AE')]">
+    <section className='px-[10px] md:px-[100px] py-[100px] bg-cover bg-hero-pattern bg-no-repeat'>
       <div>
         <p className="text-blue-600 font-signika uppercase">
           FULLSTACK DEVELOPER
